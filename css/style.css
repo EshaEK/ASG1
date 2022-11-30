@@ -74,3 +74,40 @@ header nav ul li a:hover {
 
 }
 
+/*------------ Hero Content ------------*/
+
+.hero-text{
+
+    margin: 70px 50px;
+    text-align: center;
+
+}
+
+.hero-content p{
+
+    padding: 40px;
+}
+
+.about-btn{
+
+    margin-bottom: 80px;
+}
+
+.about-btn .btn {
+    padding: 10px 30px;
+    background-color: #ECD06F;
+    text-decoration: none;
+    font-weight: 300;
+    color: #000000;
+    font-size: 1rem;
+    border-radius: 6px;
+}
+
+.about-btn a:hover {
+
+    font-weight: 500;
+}
+
+
+
+
