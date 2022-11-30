@@ -120,6 +120,29 @@ header nav ul li a:hover {
     font-weight: 500;
 }
 
+/*------------ Menu ------------*/
+
+.gallery {
+
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 20px 40px;
+}
+
+.food a {
+
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.food a:hover {
+
+    font-weight: 600;
+}
+
 
 /*-------- Laptop Size --------*/
 
