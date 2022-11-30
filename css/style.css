@@ -36,6 +36,18 @@ h2 {
 }
 
 
+
+.menu {
+
+    display: none;
+}
+
+.showMenu {
+
+    display: block;
+}
+
+
 /*------------ Header ------------*/
 
 header {
@@ -109,5 +121,28 @@ header nav ul li a:hover {
 }
 
 
+/*-------- Laptop Size --------*/
+
+@media screen and (min-width:992px) {
+
+
+    header nav ul li {
+
+        display: inline;
+    }
+
+    .lines-icon {
+
+        display: none;
+    }
+
+    .menu {
+
+        display: block;
+    }
+
+
+
+}
 
 
