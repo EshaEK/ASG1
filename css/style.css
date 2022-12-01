@@ -46,9 +46,6 @@ h3 {
     letter-spacing: 10px;
 }
 
-
-
-
 .menu {
 
     display: none;
@@ -193,9 +190,15 @@ input[type=submit], .about-btn a:hover {
 .about-text{
 
     flex:50%;
+    padding: 50px 0;
 }
 
 /*------------Form Container ------------*/
+
+.customer-form{
+
+    margin-top: 50px;
+}
 
 .form-container{
 
@@ -218,6 +221,14 @@ input[type=submit], .about-btn a:hover {
 .form-container input[type=submit]{
 
     text-align: center;
+}
+
+.customer-form p{
+
+    text-align: center;
+    padding:20px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
 }
 
 /*------------ Footer ------------*/
@@ -268,14 +279,44 @@ footer img {
     align-items: center;
 }
 
+/*====================== About Page ======================*/
 
+.about-coffee1 {
 
+    background-color: #987654;
+    padding: 70px;
+}
+
+.about-coffee2 {
+
+    padding: 70px;
+}
+
+.about-info1{
+
+    padding: 50px;
+
+}
+
+.about-info2 {
+
+    background-color: #987654;
+    padding: 50px;
+    color: #ffffff;
+
+}
+
+.about-info1 p, .about-info2 p {
+
+    padding-bottom: 50px;
+
+}
 
 /*-------- Laptop Size --------*/
 
 @media screen and (min-width:992px) {
 
-h1 {
+    h1 {
 
         font-size: 3.5rem;
         font-weight: 300;
