@@ -117,17 +117,18 @@ header nav ul li a:hover {
     margin-bottom: 80px;
 }
 
-.about-btn .btn {
-    padding: 10px 30px;
+.about-btn .btn, input[type=submit]{
+    padding: 15px 50px;
     background-color: #ECD06F;
     text-decoration: none;
     font-weight: 300;
     color: #000000;
-    font-size: 1rem;
+    font-size: 1.2rem;
     border-radius: 6px;
+    border: none;
 }
 
-.about-btn a:hover {
+input[type=submit], .about-btn a:hover {
 
     font-weight: 500;
 }
@@ -162,7 +163,8 @@ header nav ul li a:hover {
     text-decoration: none;
     color: #ECD06F;
     text-transform: uppercase;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    padding-top: 60px;
 }
 
 .food a:hover {
@@ -202,6 +204,11 @@ header nav ul li a:hover {
     
 }
 
+.form-container input[type=submit]{
+
+    text-align: center;
+}
+
 
 
 
@@ -209,6 +216,24 @@ header nav ul li a:hover {
 
 @media screen and (min-width:992px) {
 
+h1 {
+
+        font-size: 3.5rem;
+        font-weight: 300;
+    }
+
+    h2 {
+
+        font-size: 3rem;
+        font-weight: 400;
+
+    }
+
+    h3 {
+
+        font-size: 2.5rem;
+        font-weight: 300;
+    }
 
     header nav ul li {
 
@@ -229,6 +254,30 @@ header nav ul li a:hover {
 
         width: 50%;
         margin: auto;
+    }
+
+    .kitchen .gallery{
+
+        display: flex;
+    }
+
+    .about-us .about-pic1 img,
+    .about-content img,
+    .about-pic2 img {
+    
+        padding: 70px 60px;
+    }
+
+    .about-content{
+
+        display: flex;
+        align-items: center;
+    }
+
+    .form-container{
+
+        margin: 40px 60px;
+
     }
 
 
