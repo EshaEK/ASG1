@@ -312,6 +312,24 @@ footer img {
 
 }
 
+/*====================== Coffee Page ======================*/
+
+.coffee-bean1, .coffee-bean2{
+
+    margin-top: 60px;
+}
+
+.coffee-text{
+
+    text-align: center;
+    padding: 50px;
+}
+
+.coffee-text p{
+
+    padding-top: 30px;
+}
+
 /*-------- Laptop Size --------*/
 
 @media screen and (min-width:992px) {
@@ -400,6 +418,19 @@ footer img {
     
         padding: 0 50px ;
     
+    }
+
+    .coffee-bean1, .coffee-bean2{
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+        padding: 30px 70px;
+    }
+
+    .coffee-bean2{
+
+        flex-direction: row-reverse;
     }
 
 
