@@ -86,7 +86,7 @@ header nav ul li {
     padding: 30px 35px;
 }
 
-header nav ul li a {
+.lines-icon, header nav ul li a {
 
     text-decoration: none;
     color: #fff;
@@ -174,14 +174,25 @@ input[type=submit], .about-btn a:hover {
 
 /*------------ About Us ------------*/
 
-.about-us .about-pic1 img, .about-content img, .about-pic2 img{
+/* .about-us .about-pic1 img, .about-content img, .about-pic2 img{
 
     padding: 70px 40px;
-}
+} */
 
 .about-text p{
 
     padding: 40px;
+}
+
+.about-content img{
+
+    flex: 50%;
+
+}
+
+.about-text{
+
+    flex:50%;
 }
 
 /*------------Form Container ------------*/
@@ -207,6 +218,54 @@ input[type=submit], .about-btn a:hover {
 .form-container input[type=submit]{
 
     text-align: center;
+}
+
+/*------------ Footer ------------*/
+
+footer {
+
+    padding: 40px 0;
+    background-color: #987654;
+    text-align: center;
+}
+
+footer ul li {
+
+    display: inline;
+    list-style-type: none;
+    padding: 30px 35px;
+}
+
+footer ul li a {
+
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer a:hover {
+
+    font-weight: 600;
+}
+
+footer img {
+
+    height: 60px;
+    margin: 20px auto;
+}
+
+.socials {
+
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+}
+
+.copyright {
+
+    font-size: 0.5rem;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
