@@ -14,6 +14,7 @@ html {
 img {
 
     max-width: 100%;
+    /* width: 600px; */
     display: block;
     height: auto;
 }
@@ -176,9 +177,15 @@ input[type=submit], .about-btn a:hover {
     padding: 70px 40px;
 } */
 
-.about-text p{
+.about-pic1 img{
+
+    margin: auto;
+}
+
+.about-text p, .about-pic1 p {
 
     padding: 40px;
+    flex: 50%;
 }
 
 .about-content img{
@@ -238,6 +245,7 @@ footer {
     padding: 40px 0;
     background-color: #987654;
     text-align: center;
+    color: #ffffff;
 }
 
 footer ul li {
@@ -277,6 +285,11 @@ footer img {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.location{
+
+    padding-top: 40px ;
 }
 
 /*====================== About Page ======================*/
@@ -330,6 +343,22 @@ footer img {
     padding-top: 30px;
 }
 
+/*====================== Bakery Page ======================*/
+
+.pastery, .cakes{
+
+    padding: 30px;
+}
+.pastery p, .cakes p{
+
+    text-align: center;
+}
+
+.cakes h3{
+
+    padding-top: 60px;
+}
+
 /*-------- Laptop Size --------*/
 
 @media screen and (min-width:992px) {
@@ -379,11 +408,19 @@ footer img {
         display: flex;
     }
 
+    .about-pic1 {
+    
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
     .about-us .about-pic1 img,
     .about-content img,
     .about-pic2 img {
     
         padding: 70px 60px;
+        flex: 50%;
     }
 
     .about-content{
@@ -431,6 +468,13 @@ footer img {
     .coffee-bean2{
 
         flex-direction: row-reverse;
+    }
+
+    .pastery .row, .cakes .row{
+
+        display: flex;
+
+        
     }
 
 
