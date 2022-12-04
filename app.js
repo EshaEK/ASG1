@@ -12,3 +12,15 @@ function toggleMenu() {
         menu.classList.add("showMenu");
     }
 }
+
+// --------------------------- Forms ---------------------------
+
+let btnSubmit = document.getElementById('btnSubmit');
+let msg = "";
+//process form 
+btnSubmit.addEventListener('click', function (e) {
+    e.preventDefault();
+
+    let userName = document.getElementById('txtName').value;
+    msg += `User Name: ${userName}<br/>`;
+}
